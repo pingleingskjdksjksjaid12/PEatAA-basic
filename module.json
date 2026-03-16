@@ -1,0 +1,87 @@
+{
+  "id": "peataa-adventures-and-useful-gubbins",
+  "title": "PEatAA Adventures and Useful Gubbins",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Michael Coolwood",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "Scenario_A-fete-worse-than-death",
+      "label": "Scenario: A Fete Worse Than Death",
+      "path": "packs/Scenario_A-fete-worse-than-death",
+      "type": "Adventure",
+      "system": "worldbuilding",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "Scenario_The-Quest-To-Return-The-Golden-Frog",
+      "label": "Scenario: The Quest To Return The Golden Frog",
+      "path": "packs/Scenario_The-Quest-To-Return-The-Golden-Frog",
+      "type": "Adventure",
+      "system": "worldbuilding",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "Mechanics-and-Useful-Gubbins",
+      "label": "Character Sheets, Mechanics & Useful Gubbins",
+      "path": "packs/Mechanics-and-Useful-Gubbins",
+      "type": "Adventure",
+      "system": "worldbuilding",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "worldbuilding",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "orcnog-card-viewer",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "pdf-sheets",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "socketlib",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "vtta-tokenizer",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
